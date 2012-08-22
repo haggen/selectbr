@@ -27,7 +27,7 @@ E pronto!
 
 Lembre-se de hospedar também o `brazil.json` que é o arquivo que contém a lista de cidades e estados.
 
-O caminho padrão para o arquivo é `/brazil.json` ou seja, na raiz do sei site, mas se você quiser colocá-lo em outro lugar, basta passar esse novo caminho como argumento da chamada do plugin:
+O caminho padrão para o arquivo é `/brazil.json` ou seja, na raiz do seu site, mas se você quiser colocá-lo em outro lugar, basta passar esse novo caminho como argumento da chamada do plugin:
 
     $.selectbr('/statis/brazil.json');
 
