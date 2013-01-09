@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>SelectBR by haggen</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>SelectBR</h1>
+        <p>Caixas de seleção para todos os estados e cidades brasileiras.</p>
+
+        <p class="view"><a href="https://github.com/haggen/selectbr">View the Project on GitHub <small>haggen/selectbr</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/haggen/selectbr/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/haggen/selectbr/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/haggen/selectbr">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>SelectBr</h1>
+
+<p>Caixas de seleção para todos os estados e cidades brasileiras.</p>
+
+<ul>
+<li>Cross-browser, funciona onde funciona jQuery;</li>
+<li>Já vem com a lista de estados/cidades;</li>
+<li>Mantém seleção após submissão da página;</li>
+<li>Fácil de usar e não polui a marcação;</li>
+<li>Fallback para campos de texto comuns;</li>
+</ul><h2>Exemplo:</h2>
+
+<p></p>
+
+<h2>Uau! E como usa ?</h2>
+
+<p>No seu HTML você escreve:</p>
+
+<pre><code>&lt;input type="text" data-brazil-state="1"&gt;
+&lt;input type="text" data-brazil-city="1"&gt;
+</code></pre>
+
+<p>O número <code>1</code> alí identifica o parzinho de campos que devem estar conectados. Pode ser qualquer coisa, usei um número para facilitar. Assim você pode ter vários campos desses na mesma página.</p>
+
+<p>No seu JavaScript:</p>
+
+<pre><code>$(function() {
+  $.selectbr();
+});
+</code></pre>
+
+<p>E pronto!</p>
+
+<p>Lembre-se de hospedar também o <code>brazil.json</code> que é o arquivo que contém a lista de cidades e estados.</p>
+
+<p>O caminho padrão para o arquivo é <code>/brazil.json</code> ou seja, na raiz do seu site, mas se você quiser colocá-lo em outro lugar, basta passar esse novo caminho como argumento da chamada do plugin:</p>
+
+<pre><code>$.selectbr('/statis/brazil.json');
+</code></pre>
+
+<h2>Precisa do que ?</h2>
+
+<ul>
+<li>jQuery 1.7 ou maior;</li>
+</ul><h2>Adorei, como posso colaborar ?</h2>
+
+<p>Pelo GitHub mesmo:</p>
+
+<ol>
+<li>faça um fork do projeto clicando no botão ali em cima;</li>
+<li>crie um novo branch para sua função/correção com o comando <code>git checkout -b novo_recurso</code>;</li>
+<li>faça as alterações que deseja e suba suas modificações com <code>git commit -am "meu recurso faz isso, isso e aquilo; git push</code>"</li>
+<li>volte aqui no GitHub, na página do seu fork e clique no botão de <em>Pull Request</em>;</li>
+<li>nos comentários explique porque você fez as alterações que fez e o que mudou;</li>
+</ol><p>Agradeço desde já seu interesse e boa vontade!</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/haggen">haggen</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-37511274-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
