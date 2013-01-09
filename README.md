@@ -8,7 +8,11 @@ Caixas de seleção para todos os estados e cidades brasileiras.
 - Fácil de usar e não polui a marcação;
 - Fallback para campos de texto comuns;
 
-## Como usa ?
+## Exemplo:
+
+Veja em http://haggen.github.com/selectbr.
+
+## Uau! E como usa ?
 
 No seu HTML você escreve:
 
