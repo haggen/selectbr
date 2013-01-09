@@ -40,10 +40,12 @@
 <li>Fallback para campos de texto comuns;</li>
 </ul><h2>Exemplo:</h2>
 
-<p>Escolha um estado e cidade:</p>
-
-<input type="text" data-brazil-city="1">
-<input type="text" data-brazil-state="1">
+<form>
+  <label>Escolha um estado:</label>
+  <input type="text" data-brazil-state="1">
+  <label>e uma cidade:</label>
+  <input type="text" data-brazil-city="1">
+</form>
 
 <h2>Uau! E como usa ?</h2>
 
@@ -94,7 +96,7 @@
     </div>
     <script src="//code.jquery.com/jquery.min.js"></script>
     <script src="https://raw.github.com/haggen/selectbr/master/selectbr.min.js"></script>
-    <script>$(function() { $.selectbr('https://raw.github.com/haggen/selectbr/master/brazil.json'); });</script>
+    <script>$(function() { $.selectbr(); });</script>
     <script src="javascripts/scale.fix.js"></script>
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
