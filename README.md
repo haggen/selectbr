@@ -33,7 +33,7 @@ Lembre-se de hospedar também o `brazil.json` que é o arquivo que contém a lis
 
 O caminho padrão para o arquivo é `/brazil.json` ou seja, na raiz do seu site, mas se você quiser colocá-lo em outro lugar, basta passar esse novo caminho como argumento da chamada do plugin:
 
-    $.selectbr('/statis/brazil.json');
+    $.selectbr('/static/brazil.json');
 
 ## Precisa do que ?
 
